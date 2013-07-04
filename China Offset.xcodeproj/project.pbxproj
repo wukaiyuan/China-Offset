@@ -21,6 +21,9 @@
 		829190121780705900F25133 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82918FF41780705900F25133 /* UIKit.framework */; };
 		8291901A1780705900F25133 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 829190181780705900F25133 /* InfoPlist.strings */; };
 		8291901C1780705900F25133 /* China_OffsetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8291901B1780705900F25133 /* China_OffsetTests.m */; };
+		829190261780723100F25133 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829190251780723100F25133 /* MapKit.framework */; };
+		829190281780783B00F25133 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829190271780783B00F25133 /* CoreLocation.framework */; };
+		8291902B1780948900F25133 /* Pinnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8291902A1780948900F25133 /* Pinnotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,10 @@
 		829190171780705900F25133 /* China OffsetTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "China OffsetTests-Info.plist"; sourceTree = "<group>"; };
 		829190191780705900F25133 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8291901B1780705900F25133 /* China_OffsetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = China_OffsetTests.m; sourceTree = "<group>"; };
+		829190251780723100F25133 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		829190271780783B00F25133 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		829190291780948800F25133 /* Pinnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pinnotation.h; sourceTree = "<group>"; };
+		8291902A1780948900F25133 /* Pinnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pinnotation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				829190281780783B00F25133 /* CoreLocation.framework in Frameworks */,
+				829190261780723100F25133 /* MapKit.framework in Frameworks */,
 				82918FF31780705900F25133 /* CoreGraphics.framework in Frameworks */,
 				82918FF51780705900F25133 /* UIKit.framework in Frameworks */,
 				82918FF11780705900F25133 /* Foundation.framework in Frameworks */,
@@ -101,6 +110,8 @@
 		82918FEF1780705900F25133 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				829190271780783B00F25133 /* CoreLocation.framework */,
+				829190251780723100F25133 /* MapKit.framework */,
 				82918FF01780705900F25133 /* Foundation.framework */,
 				82918FF21780705900F25133 /* CoreGraphics.framework */,
 				82918FF41780705900F25133 /* UIKit.framework */,
@@ -117,6 +128,8 @@
 				829190021780705900F25133 /* Main.storyboard */,
 				829190051780705900F25133 /* ViewController.h */,
 				829190061780705900F25133 /* ViewController.m */,
+				829190291780948800F25133 /* Pinnotation.h */,
+				8291902A1780948900F25133 /* Pinnotation.m */,
 				829190081780705900F25133 /* Images.xcassets */,
 				82918FF71780705900F25133 /* Supporting Files */,
 			);
@@ -252,6 +265,7 @@
 				829190071780705900F25133 /* ViewController.m in Sources */,
 				829190011780705900F25133 /* AppDelegate.m in Sources */,
 				82918FFD1780705900F25133 /* main.m in Sources */,
+				8291902B1780948900F25133 /* Pinnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
